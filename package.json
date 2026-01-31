@@ -1,14 +1,11 @@
-{
-  "name": "tradetalk",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "14.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
+export default function Home() {
+  return (
+    <div style={{ textAlign: 'center', marginTop: '60px', fontFamily: 'Arial' }}>
+      <h1>TradeTalk.shop</h1>
+      <p>AI + Community for Skilled Trades</p>
+      <button style={{ padding: '12px 24px', fontSize: '18px' }}>
+        Ask a Question
+      </button>
+    </div>
+  );
 }
