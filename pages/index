@@ -1,0 +1,11 @@
+Create a minimal Next.js website for a site called TradeTalk.shop.
+- Homepage with:
+  - Hero section: "TradeTalk — AI + Community for Skilled Trades"
+  - Subtext: "Ask questions, share fixes, learn from pros."
+  - Button: "Ask a Question"
+  - Category tiles: Automotive, Diesel, Off-Road, HVAC, Plumbing, Electrical, Carpentry
+- Category page with a simple list of posts
+- Ask Question page with a structured form: Trade, System, Symptoms, Error Codes, Details
+- Include routing so pages are clickable
+- Include basic styling, mobile-friendly
+- Make it ready to deploy on Vercel
